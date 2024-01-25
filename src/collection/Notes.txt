@@ -1,0 +1,28 @@
+Four main properties:-
+1) Null allowed or not
+2) Insertion order is maintained or not
+3) Members are sorted implicitly or not
+4) Duplicates are allowed or not.
+
+
+Before sorting we need to compare objects so that sorting can be done in a particular way.
+We can use Comparable or Comparator to compare two objects.
+
+Comparable:-
+1) It is a predefined interface having one abstract method public int compareTo();
+2) We implement Comparable directly on our pojo class.
+3) If we use Comparable then we can compare in only one way and hence sorting can be done in 
+only one way.
+4)Comparable is present in java.lang
+
+Comparator:-
+1) It is a predefined interface having one abstract method public int compare();
+2) We implement Comparator on a separate class where we declare how the comparison is to be done
+in the compare method.
+3) If we use Comprator we can compare the same objects in many different ways, hence sorting
+can also be done in many different ways.
+4)Comparator is present in java.util
+
+
+
+

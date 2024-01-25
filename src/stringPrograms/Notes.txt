@@ -1,0 +1,15 @@
+Points to remember:-
+1) In a String each character is assigned an index starting for 0 to length()-1
+
+
+length()
+charAt(index)
+equals(string)
+compareTo(string)
+toUpperCase()
+toLowerCase()
+contains(string)
+substring(start index, end index)
+startsWith
+endsWith
+split(regex)

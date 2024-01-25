@@ -1,0 +1,32 @@
+1) Interfaces give 100% abstraction, because all methods of an interface are
+automatically considered abstract.
+
+2) We cannot make the object of an interface.
+
+3) We use implements keyword to inherit the methods of an interface.
+
+4) We cannot make constructors inside and interface.
+
+5) All variables in an interface are automatically public static and final.
+
+6) We can implement more that one interface to a class.
+
+7) Extends keyword always comes before implements keyword
+
+8) We can make nested interfaces.Meaning an interface within another interface.
+
+9) Functional interfaces are those which have only one abstract method.
+Examples of predefine functional interface are:-Runnable, Comparator
+
+10) Marker interfaces are those which do not have any methods in them. They are empty interfaces
+Example: Serializable interface, Clonable interface.
+Such interfaces are used to mark our class as a special class.
+
+11) In case we do not want to implement the abstract methods of an interface in a class then
+we need to mark the class as abstract.
+
+
+
+
+
+

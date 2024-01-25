@@ -1,0 +1,11 @@
+1) Abstract class objects cannot be created because abstract class is an 
+incomplete class having abstract methods.
+
+2) If we do not want to implement the abstract method in child class then
+we have to declare the child class also abstract.
+
+3) abstract keyword and final keyword can never be used together.
+
+4) abstract class gives partial abstraction, because an abstract class has
+concrete methods and abstract methods also.
+For full abstraction we have to use interfaces

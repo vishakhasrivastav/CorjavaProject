@@ -1,0 +1,20 @@
+Types of inheritance:-
+
+1) Single inheritance: One parent class and one child class
+2) Multilevel inheritance: One parent has one child class and this child class
+							is parent to another class
+3) Hierarchical inheritance: One parent which has many child classes
+
+4) Multiple inheritance: One child has many parents. This is not allowed in java
+
+5) Hybrid inheritance: One class has multiple child classes and these child classes are parent
+						to one class.
+						
+Point to remember:-
+1) If parent class and child class both have members with same name then we can call parent class
+member with super keyword.
+
+2) When we make child class object the first call will always go to the non parameterized 
+constructor of parent.
+But as a developer if we want the first call to go to some other constructor inside parent
+then we can explicitly call the parent constructor using super keyword.

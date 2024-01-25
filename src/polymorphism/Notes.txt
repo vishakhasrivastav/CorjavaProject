@@ -1,0 +1,20 @@
+Difference between Method overloading and Method overriding:-
+
+1) In method overloading same named methods are in the same class
+	In method overriding same named methods are in different classes, one
+	parent class the other is the child class.
+
+2) Inheritance is not concerned in method overloading
+	For method overriding inheritance must be there.
+	
+3) In method overloading methods have same name but parameters must be different.
+	In method overriding the name is same and also parameters must be same.
+	
+4) Overloading is used to do the same task with different variations.
+	Overriding is used to change the behavior of the inherited method in child class.
+	
+	
+5) In method overloading the access specifier is not considered, hence we can keep any access
+specifier.
+	In method overriding we can only increase the accessibility of the overridden method, we
+	can never decrease the accessibility.
